@@ -1,0 +1,249 @@
+{
+  "_index16.mjs": {
+    "file": "index16.mjs",
+    "name": "index",
+    "imports": [
+      "_index17.mjs"
+    ]
+  },
+  "_index17.mjs": {
+    "file": "index17.mjs",
+    "name": "index"
+  },
+  "_index18.mjs": {
+    "file": "index18.mjs",
+    "name": "index",
+    "imports": [
+      "_index17.mjs"
+    ]
+  },
+  "_index19.mjs": {
+    "file": "index19.mjs",
+    "name": "index",
+    "imports": [
+      "_index17.mjs"
+    ]
+  },
+  "_schema.mjs": {
+    "file": "schema.mjs",
+    "name": "schema"
+  },
+  "_server-fns.mjs": {
+    "file": "server-fns.mjs",
+    "name": "server-fns",
+    "dynamicImports": [
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/completion/index.tsx?pick=default&pick=$css",
+      "src/routes/completion/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-request/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-request/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css",
+      "src/routes/use-object/index.tsx?pick=default&pick=$css",
+      "src/routes/use-object/index.tsx?pick=default&pick=$css",
+      "src/routes/api/chat/index.ts?pick=POST",
+      "src/routes/api/chat/index.ts?pick=POST",
+      "src/routes/api/completion/index.ts?pick=POST",
+      "src/routes/api/completion/index.ts?pick=POST",
+      "src/routes/api/use-chat-request/index.ts?pick=POST",
+      "src/routes/api/use-chat-request/index.ts?pick=POST",
+      "src/routes/api/use-chat-streamdata/index.ts?pick=POST",
+      "src/routes/api/use-chat-streamdata/index.ts?pick=POST",
+      "src/routes/api/use-chat-tools/index.ts?pick=POST",
+      "src/routes/api/use-chat-tools/index.ts?pick=POST",
+      "src/routes/api/use-chat-vision/index.ts?pick=POST",
+      "src/routes/api/use-chat-vision/index.ts?pick=POST",
+      "src/routes/api/use-object/index.ts?pick=POST",
+      "src/routes/api/use-object/index.ts?pick=POST",
+      "src/app.tsx"
+    ]
+  },
+  "src/app.tsx": {
+    "file": "app.mjs",
+    "name": "app",
+    "src": "src/app.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-fns.mjs"
+    ],
+    "css": [
+      "assets/app-CyNvp7WB.css"
+    ]
+  },
+  "src/routes/api/chat/index.ts?pick=POST": {
+    "file": "index9.mjs",
+    "name": "index",
+    "src": "src/routes/api/chat/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/api/completion/index.ts?pick=POST": {
+    "file": "index10.mjs",
+    "name": "index",
+    "src": "src/routes/api/completion/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/api/use-chat-request/index.ts?pick=POST": {
+    "file": "index11.mjs",
+    "name": "index",
+    "src": "src/routes/api/use-chat-request/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/api/use-chat-streamdata/index.ts?pick=POST": {
+    "file": "index12.mjs",
+    "name": "index",
+    "src": "src/routes/api/use-chat-streamdata/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/api/use-chat-tools/index.ts?pick=POST": {
+    "file": "index13.mjs",
+    "name": "index",
+    "src": "src/routes/api/use-chat-tools/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/api/use-chat-vision/index.ts?pick=POST": {
+    "file": "index14.mjs",
+    "name": "index",
+    "src": "src/routes/api/use-chat-vision/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/api/use-object/index.ts?pick=POST": {
+    "file": "index15.mjs",
+    "name": "index",
+    "src": "src/routes/api/use-object/index.ts?pick=POST",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index19.mjs",
+      "_index18.mjs",
+      "_schema.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/completion/index.tsx?pick=default&pick=$css": {
+    "file": "index2.mjs",
+    "name": "index",
+    "src": "src/routes/completion/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "index.mjs",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css": {
+    "file": "index3.mjs",
+    "name": "index",
+    "src": "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/use-chat-request/index.tsx?pick=default&pick=$css": {
+    "file": "index4.mjs",
+    "name": "index",
+    "src": "src/routes/use-chat-request/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index18.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css": {
+    "file": "index5.mjs",
+    "name": "index",
+    "src": "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css": {
+    "file": "index6.mjs",
+    "name": "index",
+    "src": "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css": {
+    "file": "index7.mjs",
+    "name": "index",
+    "src": "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "src/routes/use-object/index.tsx?pick=default&pick=$css": {
+    "file": "index8.mjs",
+    "name": "index",
+    "src": "src/routes/use-object/index.tsx?pick=default&pick=$css",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index16.mjs",
+      "_schema.mjs",
+      "_index17.mjs"
+    ]
+  },
+  "virtual:$vinxi/handler/server-fns": {
+    "file": "entry.mjs",
+    "name": "entry",
+    "src": "virtual:$vinxi/handler/server-fns",
+    "isEntry": true,
+    "imports": [
+      "_server-fns.mjs"
+    ]
+  }
+}

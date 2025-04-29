@@ -1,0 +1,1 @@
+import{o as e}from"./index19.mjs";import{a as s}from"./index18.mjs";import{n as a}from"./schema.mjs";import"./index17.mjs";import"zod";const f=async({request:t})=>{const o=await t.json();return s({model:e("gpt-4o"),prompt:`Generate 3 notifications for a messages app in this context: ${o}`,schema:a}).toTextStreamResponse()};export{f as POST};

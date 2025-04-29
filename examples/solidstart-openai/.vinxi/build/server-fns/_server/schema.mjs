@@ -1,0 +1,1 @@
+import{z as e}from"zod";const i=e.object({notifications:e.array(e.object({name:e.string().describe("Name of a fictional person."),message:e.string().describe("Message. Do not use emojis or links."),minutesAgo:e.number()}))});export{i as n};

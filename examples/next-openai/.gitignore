@@ -36,3 +36,4 @@ next-env.d.ts
 
 # chat persistence
 .chats
+.streams

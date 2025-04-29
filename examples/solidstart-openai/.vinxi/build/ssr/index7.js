@@ -1,0 +1,42 @@
+import {
+  ssr as t,
+  ssrHydrationKey as o,
+  escape as e,
+  createComponent as i,
+  ssrAttribute as m,
+} from 'solid-js/web';
+import { u as p } from './assets/index-CBqZMAVM.js';
+import { For as l } from 'solid-js';
+import './assets/index-B97T_aK9.js';
+import 'zod';
+import 'solid-js/store';
+const n = [
+    '<div',
+    ' class="flex flex-col w-full max-w-md py-24 mx-auto stretch"><!--$-->',
+    '<!--/--><form><input class="fixed bottom-0 w-full max-w-md p-2 mb-8 border border-gray-300 rounded shadow-xl"',
+    ' placeholder="Say something..."></form></div>',
+  ],
+  u = [
+    '<div',
+    ' class="whitespace-pre-wrap"><!--$-->',
+    '<!--/--><!--$-->',
+    '<!--/--></div>',
+  ];
+function v() {
+  const { messages: s, input: a } = p(() => ({ api: '/api/use-chat-vision' }));
+  return t(
+    n,
+    o(),
+    e(
+      i(l, {
+        get each() {
+          return s();
+        },
+        children: r =>
+          t(u, o(), r.role === 'user' ? 'User: ' : 'AI: ', e(r.content)),
+      }),
+    ),
+    m('value', e(a(), !0), !1),
+  );
+}
+export { v as default };
