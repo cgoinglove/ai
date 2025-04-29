@@ -1,5 +1,15 @@
 # ai
 
+## 5.0.0-canary.16
+
+### Major Changes
+
+- 2524fc7: chore (ai): remove ui message toolInvocations property
+
+### Patch Changes
+
+- 9b4d074: feat(streamObject): add enum support
+
 ## 5.0.0-canary.15
 
 ### Major Changes
